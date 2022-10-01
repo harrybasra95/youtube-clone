@@ -1,0 +1,24 @@
+.hello {
+    background-color: black;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding-left: 1px;
+    outline: 1px solid black;
+}
+
+
+
+.hambugermenu {
+    height: 30px;
+    margin: 15px;
+
+}
+
+.logoimg {
+    height: 50px;
+
+
+}

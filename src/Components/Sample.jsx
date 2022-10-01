@@ -1,7 +1,8 @@
-import './SearchBar.css';
+// import './SearchBar.css';
+// import logoImg from './logo.png';
 
-const SearchBar = ()=>{
+// const SearchBar = ()=>{
 
-}
+// }
 
-export default SearchBar; 
+// export default SearchBar; 

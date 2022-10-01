@@ -4,8 +4,10 @@ import Logo from './Components/Logo/Logo';
 function App() {
   return (
     <div className="App">
-      <p>Hello World</p> 
-      <Logo></Logo>
+      <div id="navbar">
+        <Logo></Logo>
+
+      </div>
     </div>
   );
 }

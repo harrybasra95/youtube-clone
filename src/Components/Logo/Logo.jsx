@@ -1,9 +1,16 @@
 import './Logo.css';
-
-const Logo = ()=>{
+import logoImg from './logo.png';
+import hambuger from './hambuger.jpg'
+const Logo = () => {
     return (
         <div>
-            <p>Guri</p>
+            <div className='logo-container'>
+                <img className='hambugermenu' src={hambuger} alt="" />
+                <img className='logoimg' src={logoImg} alt="" />
+                <input type="text" placeholder='search' />
+            </div>
+            <div>
+            </div>
         </div>
     )
 }
