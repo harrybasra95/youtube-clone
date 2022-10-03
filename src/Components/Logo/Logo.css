@@ -6,19 +6,25 @@
     display: flex;
     align-items: center;
     padding-left: 1px;
-    outline: 1px solid black;
+    /* margin: 25px; */
+
+
+
 }
-
-
 
 .hambugermenu {
     height: 30px;
-    margin: 15px;
+    margin-left: 15px;
+
+
 
 }
 
 .logoimg {
     height: 50px;
+    margin-left: 15px;
+
+
 
 
 }
