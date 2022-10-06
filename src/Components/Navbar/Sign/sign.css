@@ -9,15 +9,32 @@
     margin-right: 15px;
 }
 
-.button-icon {
+.sign-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-color: rgb(6, 95, 212);
     margin-right: 10px;
-    width: 108px;
+    padding: 0px 8px;
+    gap: 3px;
+}
+
+
+.iconsimg {
+    height: 20px;
+
+}
+
+.button-icon {
+
+    width: 66px;
     height: 40px;
     text-transform: uppercase;
     word-spacing: 3px;
     letter-spacing: 0.5px;
     color: rgb(6, 95, 212);
-    border-color: rgb(6, 95, 212);
+    border-color: transparent;
     background-color: transparent;
 
 }
