@@ -1,12 +1,46 @@
-.content {
+.icons {
     display: flex;
-    flex-direction: row;
-    background-color: red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
-.color {
+.home {
     display: flex;
-    background-color: red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
 
+}
 
+.text {
+    font-size: xx-small;
+    padding: 5px;
+    display: contents;
+}
+
+.icon8 {
+    height: 24px;
+}
+
+.explore {
+    height: 24px;
+}
+
+.Ss {
+    height: 28px;
+}
+
+.sss {
+    height: 34px;
+}
+
+.ssli {
+    height: 34px;
+}
+
+.ssh {
+    height: 34px;
 }

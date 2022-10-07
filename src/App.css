@@ -5,5 +5,5 @@
 
 .Content {
     display: flex;
-    height: 600px;
+    justify-content: flex-start;
 }

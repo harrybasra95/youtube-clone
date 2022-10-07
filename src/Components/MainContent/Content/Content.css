@@ -1,0 +1,24 @@
+.content {}
+
+
+.button-icons {
+    width: 100pc;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.text-button {
+    padding: 10px 14px;
+    margin-right: 8px;
+    color: black;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.button-selected {
+    color: white;
+    background-color: black;
+}
