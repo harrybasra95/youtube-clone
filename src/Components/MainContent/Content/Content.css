@@ -3,9 +3,11 @@
 
 .button-icons {
     width: 100pc;
-    height: 52px;
-    display: flex;
+    padding: 10px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid#f2f2f2;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .text-button {
@@ -20,5 +22,10 @@
 
 .button-selected {
     color: white;
+    background-color: black;
+}
+
+.full-content {
+    display: flex;
     background-color: black;
 }
