@@ -1,41 +1,77 @@
 .full-content {
     display: flex;
+    
 
-    background-color: green;
+    // background-color: green;
 
     .content {
         height: 312px;
-        width: 100%;
-        background: purple;
+        width: 91%;
+        // background: purple;
         display: flex;
-
+justify-content: space-between;
         .card {
             width: 320px;
             height: 280px;
-            background-color: red;
-            margin-right: 15px;
+            // background-color: red;
+            // margin-right: 15px;
 
             .image {
                 height: 60%;
+                overflow: hidden;
 
                 .imgyt {
                     width: 100%;
+                    height: 100%;
                 }
             }
 
             .details {
                 display: flex;
-                justify-content: center;
+                height: 40%;
 
-                .profile {
-                    .imgyt {
-                        // height: 60%;
+                .profile {height: 100%;
+                    // background-color: blue;
+                    width: 20%;
+                    display: flex;
+                    justify-content: center;
+                    
+                    .profie-icon {background-color: wheat;
+                        border-radius: 50%;
+                        height: 30px;
+                        width: 30px;
+                        margin-top: 8px;
+                        .img{
+                            border-radius: 50%;
+                            height: 30px;
+                            width: 30px;
+                        }
+                        
                     }
                 }
 
-                .text {}
+                .video-discripation{
+                    height: 100%;
+                    width: 80%;
+                    background-color: green;
+                
+                }
 
-                .threedots {}
+                .more-info {height: 100%;
+                    width: 23%;
+                    background-color: goldenrod;
+                    display: flex;
+                    justify-content: flex-end;
+                    .moreinfo-icon{height: 50%;
+                        width: 30%;
+                        background-color: aqua;
+                        margin-top: 8px;
+                        margin-right: 6px;
+                    
+                        
+
+                    }
+                }
             }
         }
     }
