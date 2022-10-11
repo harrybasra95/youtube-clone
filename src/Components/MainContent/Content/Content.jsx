@@ -28,13 +28,77 @@ const Content = () => {
                         </div>
                         <div className='details'>
                             <div className='profile'>
-                                {/* <img className='imgyt' src={imgyt} alt="" /> */}
+                            <div className='profie-icon'>
+                            <img className='img' src={imgyt} alt="" />
+                                
                             </div>
-                            <div className='text'></div>
-                            <div className='threedot'></div>
+                            </div>  
+                            <div className='video-discripation'></div>
+                            <div className='more-info'>
+                                <div className='moreinfo-icon'>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
+                    <div className='card'>
+                        <div className='image'>
+                        <img className='imgyt' src={imgyt} alt="" />
+
+                        </div>
+                        <div className='details'>
+                            <div className='profile'>
+                            <div className='profie-icon'>
+                            <img className='img' src={imgyt} alt="" />
+                                
+                            </div>
+                            </div>
+                            <div className='video-discripation'></div>
+                            <div className='more-info'>
+                                <div className='moreinfo-icon'>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>               <div className='card'>
+                        <div className='image'>
+                            <img className='imgyt' src={imgyt} alt="" />
+
+                        </div>
+                        <div className='details'>
+                            <div className='profile'>
+                            <div className='profie-icon'>
+                            <img className='img' src={imgyt} alt="" />
+
+                            </div>
+                            </div>
+                            <div className='video-discripation'></div>
+                            <div className='more-info'>
+                                <div className='moreinfo-icon'>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>               <div className='card'>
+                        <div className='image'>
+                            <img className='imgyt' src={imgyt} alt="" />
+
+                        </div>
+                        <div className='details'>
+                            <div className='profile'>
+                            <div className='profie-icon'>
+                            <img className='img' src={imgyt} alt="" />
+                            </div>
+                            </div>
+                            <div className='video-discripation'></div>
+                            <div className='more-info'>
+                                <div className='moreinfo-icon'>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
 
 
                 </div>
