@@ -1,0 +1,45 @@
+.full-content {
+    display: flex;
+
+    background-color: green;
+
+    .content {
+        height: 312px;
+        width: 100%;
+        background: purple;
+        display: flex;
+
+        .card {
+            width: 320px;
+            height: 280px;
+            background-color: red;
+            margin-right: 15px;
+
+            .image {
+                height: 60%;
+
+                .imgyt {
+                    width: 100%;
+                }
+            }
+
+            .details {
+                display: flex;
+                justify-content: center;
+
+                .profile {
+                    .imgyt {
+                        // height: 60%;
+                    }
+                }
+
+                .text {}
+
+                .threedots {}
+            }
+        }
+    }
+
+
+
+}
